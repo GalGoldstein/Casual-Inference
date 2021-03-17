@@ -57,10 +57,6 @@ Each sample represents a dog breed, and it has the following attributes:
 - More attributes: grooming required, suitability for children, costs
 
 
-*Figure 2. Histograms per treatment of the 3 confounders*
-
-
-
 
 
 Treatment: The treatment will be binary. We will divide the ‘Trainability’ values into two groups – treated and control, as detailed below.
@@ -94,19 +90,8 @@ Secondly, we will discuss the ignorability assumption. The ignorability assumpti
 
 The overlap assumption (AKA common support) says that each dog breed has a positive probability of receiving each treatment (easy to train/not easy to train). We assume that overlap holds in our project, as can be seen in the propensity score histogram in figure 3. The overlap between the histograms allowing causal analysis. 
 
-*Figure 3. In orange: control group. In blue: treated group. One sample (in the right orange bin) which is not in the overlap area, was dropped from the dataset.*
-
-*Figure 3. In orange: control group. In blue: treated group. One sample (in the right orange bin) which is not in the overlap area, was dropped from the dataset.*
-
-
-
-
 
 Another way to show the existence of the common support, is by directly plotting the confounders values and the treatment. In figure 4 we can see the overlap since each treated sample has positive probability to be a control sample because of the closeness to the control samples, and vice versa.
-
-*Figure 4. Left chart: terrier dog category, right chart: working dog category. X axe: Genetic ranking. Y axe: Size category. Magnitude of the color represent the number of samples in each location in the charts. Charts for full types of dog category are in the attached code.*
-
-*Figure 4. Left chart: terrier dog category, right chart: working dog category. X axe: Genetic ranking. Y axe: Size category. Magnitude of the color represent the number of samples in each location in the charts. Charts for full types of dog category are in the attached code.*
 
 
 
@@ -124,15 +109,14 @@ Facing the data challenges:
 We found the best way to deal the missing data is to ignore this samples. Filling these missing data with any imputation method will not perform good enough, since the small amount of data. Deletion will not reduce the statistical power of the analysis because the missingness mechanism is MCAR, as detailed before. After we ignore these samples, we left with 130 samples. We solved the missing data challenge, but still have the small dataset challenge. When the dataset is relatively small, the way to find a generalized enough model is to use simple models. Complex models don’t perform good when they meet small dataset, since they overfit it. We want to have good balance between the bias and the variance, and therefore simple models are the right solution to handle this challenge.
 
 We chose to represent our causal problem with causal graph.
-
-![](images/Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.003.png)As mentioned before, our treatment is the trainability of the dog. In order to use various of methods we learned in the course, we will binarize this attribute to “is easy to train” treatment. We will consider the brightest, excellent, and above average categories as **easy to train, and will mark it as treatment=1**. The rest of the categories (average, fair, and lowest) will be considered as **hard to train and will be marked as treatment=0**.
-
+As mentioned before, our treatment is the trainability of the dog. In order to use various of methods we learned in the course, we will binarize this attribute to “is easy to train” treatment. We will consider the brightest, excellent, and above average categories as **easy to train, and will mark it as treatment=1**. The rest of the categories (average, fair, and lowest) will be considered as **hard to train and will be marked as treatment=0**.
 
 
 
 
 
 
+![](images/Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.003.png)
 *Figure 5: Causal Graph representation. In yellow: treatment. In green: outcome.*
 
 *In white: confounders. In gray: non-confounders*
