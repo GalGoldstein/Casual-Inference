@@ -1,9 +1,6 @@
 ﻿![](Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.001.png)
- **Causal Inference 097400 – Final Project**
 
-**Gal Goldstein & Yonatan Kudlech** 
-
-
+***Causal Inference 097400 – Final Project***
 
 **The Causal Effect of a Dog’s Ease of Training on its Popularity**
 
@@ -11,9 +8,7 @@
 
 
 
-**Gal Goldstein, ID 204403174**
-
-**Yonatan Kudlech, ID 203981386**
+*Gal Goldstein and Yonatan Kudlech*
 
 **Introduction**
 
