@@ -1,10 +1,10 @@
-﻿![](Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.001.png)
+﻿![](images/Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.001.png)
 
 ***Causal Inference 097400 – Final Project***
 
 **The Causal Effect of a Dog’s Ease of Training on its Popularity**
 
-![](Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.002.png)
+![](images/Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.002.png)
 
 
 
@@ -126,7 +126,7 @@ We found the best way to deal the missing data is to ignore this samples. Fillin
 
 We chose to represent our causal problem with causal graph.
 
-![](Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.003.png)As mentioned before, our treatment is the trainability of the dog. In order to use various of methods we learned in the course, we will binarize this attribute to “is easy to train” treatment. We will consider the brightest, excellent, and above average categories as **easy to train, and will mark it as treatment=1**. The rest of the categories (average, fair, and lowest) will be considered as **hard to train and will be marked as treatment=0**.
+![](images/Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.003.png)As mentioned before, our treatment is the trainability of the dog. In order to use various of methods we learned in the course, we will binarize this attribute to “is easy to train” treatment. We will consider the brightest, excellent, and above average categories as **easy to train, and will mark it as treatment=1**. The rest of the categories (average, fair, and lowest) will be considered as **hard to train and will be marked as treatment=0**.
 
 
 
@@ -145,7 +145,7 @@ The backdoor criterion:
 
 Very useful sufficient condition for causal identifiability. Figure 6 shows that the criterion holds: all the paths between the treatment and the outcome that contains an arrow into the treatment, and all of them are fork structure that blocked by the middle variable of the fork. 
 
-![](Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.005.png)
+![](images/Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.005.png)
 
 
 
@@ -234,7 +234,7 @@ ATE confidence interval: **[-17.7136, 6.1048]**
 
 *Figure 7. ATE point estimators (vertical black line) and CIs (horizontal rectangles) of the 8 methods*
 
-![](Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.008.png)
+![](images/Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.008.png)
 In figure 7 we can see a summary chart with the ATEs and CIs of the 8 methods that mentioned in this section.
 
 S-learner 3 different models have the same color, and same for T-learner models.
