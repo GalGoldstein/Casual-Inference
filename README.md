@@ -4,11 +4,10 @@
 
 **The Causal Effect of a Dog’s Ease of Training on its Popularity**
 
+*Gal Goldstein and Yonatan Kudlech*
+
 ![](images/Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.002.png)
 
-
-
-*Gal Goldstein and Yonatan Kudlech*
 
 **Introduction**
 
