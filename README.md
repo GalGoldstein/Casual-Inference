@@ -1,4 +1,5 @@
-﻿![](Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.001.png)**Causal Inference 097400 – Final Project**
+﻿![](Aspose.Words.a7e0959d-5448-427b-963b-a4a64598205a.001.png)
+ **Causal Inference 097400 – Final Project**
 
 **Gal Goldstein & Yonatan Kudlech** 
 
