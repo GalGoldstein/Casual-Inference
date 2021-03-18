@@ -21,9 +21,7 @@ To answer this question, we will first have to understand the confounders that a
 
 
 
-**Data**
-
-The Best-in-Show dataset published in 2014, by Miriam Quick and David McCandless.
+Data: The Best-in-Show dataset published in 2014, by Miriam Quick and David McCandless.
 
 It contains information about 172 different dog breeds.
 
