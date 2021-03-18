@@ -6,10 +6,8 @@
 
 *Gal Goldstein and Yonatan Kudlech*
 
+
 🐶
-
-
-**Intro**
 
 There are about 340 different breeds of dogs in the world, and this diversity of breeds creates large variability between dogs. 
 
